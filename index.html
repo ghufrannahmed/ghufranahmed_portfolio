@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghufran Ahmed Portfolio</title>
+<header style="background: #000; text-align: center; padding: 4rem 0;">
+    <img src="https://res.cloudinary.com/dcofr8eie/image/upload/v1735813038/ghuffff_ujsn7y.jpg" alt="Ghufran Ahmed" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid #4CAF50; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">
+    <h1 style="font-size: 3rem; color: #fff; margin-top: 1rem;">Ghufran Ahmed</h1>
+    <p style="font-size: 1.2rem; color: #81C784;">Full-Stack Developer | Software Enthusiast | Analytical Thinker</p>
+</header>
+
+    </div>
+</header>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #4CAF50, #81C784);
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        header p {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 1rem 2rem;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background: #4CAF50;
+            transform: scale(1.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+            animation: fadeIn 1s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .section {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            display: inline-block;
+            width: 280px;
+            vertical-align: top;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+        }
+        .card a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            display: block;
+            margin-top: 1rem;
+        }
+        .skills-list, .certifications-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills-list li, .certifications-list .card {
+            margin: 0.5rem;
+            list-style: none;
+            background: #2c2c2c;
+            padding: 0.8rem 1.2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            font-size: 1rem;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            background: #000;
+            padding: 2rem 0;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Ghufran Ahmed, a 3rd-year B.Tech Computer Science student at SR University with a current CGPA of 8.1. I have a strong foundation in programming, web development, and data analysis. My technical proficiency includes languages like C, Java, and Python, and tools such as Git and SQL. Through projects like an Inventory Tracker and Flipkart Review Sentiment Analysis, I have earned my skills in problem-solving and data-driven solutions. With certifications in advanced technologies from AWS, IBM, and EdX, I am passionate about learning and applying cutting-edge technology to real-world challenges.</p>
+        <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card">
+        <a href="https://github.com/ghufrannahmed/INVENTORY_TRACKER" target="_blank">Inventory Tracker</a>
+        <p>An efficient inventory management system using C with improved data retrieval and storage protocols.</p>
+    </div>
+    <div class="card">
+        <a href="https://github.com/ghufrannahmed/Smart-Kitchen-System" target="_blank">Smart Kitchen System</a>
+        <p>It monitors the LPG level in cylinders and detects any gas leaks, ensuring safety in the kitchen. It provides real-time data on gas levels and triggers an alarm if a leak is detected, offering enhanced security and convenience for users.</p>
+    </div>
+    <div class="card">
+        <a href="https://github.com/ghufrannahmed/Flipkart-Reviews-Sentiment-Analysis-using-Python-" target="_blank">Flipkart Review Sentiment Analysis</a>
+        <p>Implemented machine learning techniques for analyzing consumer sentiments with 89% accuracy.</p>
+    </div>
+</section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Programming Languages: C, Java, Python</li>
+                <li>Web Technologies: HTML, CSS, JavaScript, PHP</li>
+                <li>Databases: SQL, PL/SQL</li>
+                <li>Tools: Git, Visual Studio Code</li>
+            </ul>
+        </section>
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <div class="certifications-list">
+                <div class="card">
+                    <a href="https://courses.edx.org/certificates/6c53664bcd6545ee95d97cd33901cf2b?_gl=1%2A46zpzd" target="_blank">IBM Data Structures & Algorithms</a>
+                </div>
+                <div class="card">
+                    <a href="https://www.credly.com/badges/184d4567-8431-462f-b779-5ece42105d0d/public_url" target="_blank">AWS Academy Cloud Foundations</a>
+                </div>
+                <div class="card">
+                    <a href="https://www.credly.com/earner/earned/badge/724623e5-684d-4df8-95c7-974c410a735a" target="_blank">AWS Academy Cloud Web Application Builder</a>
+                </div>
+                <div class="card">
+                    <a href="https://courses.edx.org/certificates/cd22ef2195b6472c9bf91b7b58a0fd90?_gl=1*k01kmp*_gcl_au*MTE2MzMzNDI5OC4xNzM1NzY1NzA5*_ga*Mzc0ODQ3NDA0LjE3MzU3NjU3MDk.*_ga_D3KS4KMDT0*MTczNTgxMTI5NC4yLjEuMTczNTgxMTMyMy4zMS4wLjA" target="_blank">IBM Introduction to Web Development</a>
+                </div>
+                <div class="card">
+                    <a href="https://www.linkedin.com/posts/ghufran-ahmed-241037289_python-full-stack-developer-activity-7276490346199400448-L-NM" target="_blank">EduSkills Python Full Stack Developer</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ghufranahmed067@gmail.com">ghufranahmed067@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ghufran-ahmed-241037289/" target="_blank">Ghufran Ahmed</a></p>
+            <p>GitHub: <a href="https://github.com/ghufrannahmed" target="_blank">@ghufrannahmed</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Ghufran Ahmed. All rights reserved.</p>
+    </footer>
+</body>
+</html>
